@@ -1,0 +1,1 @@
+# pyrebase_simplified_class
