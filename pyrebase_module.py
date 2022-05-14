@@ -3,6 +3,7 @@ import pprint as pp
 import os
 
 
+
 storage_db_link='gs://pp1123435454.appspot.com'
 realtime_db_link='https://pp1123435454-default-rtdb.firebaseio.com/'
 
@@ -96,7 +97,7 @@ class object_database():
       data=self.database_obj.child(f'{self.db_name}').get().val()
     return data
   def delete_data(self,*args,**kwargs):
-    dta_path=kwargs.get('data_path',None)
+    dta_path=kwargs.get('path',None)
     full_path=dta_path.split('/')
 
     if len(full_path)==1:
@@ -166,7 +167,7 @@ class storage_database():
           attb_f_names.append(dbfile_name)
       for i in range(len(attb_f_names)):
         if attb_f_names[i]==file_attr:
-          print(f'{self.sdb_name}/{path}/{only_names[i]}')
+          #print(f'{self.sdb_name}/{path}/{only_names[i]}')
           self.storage.child(f'{self.sdb_name}').child(path).delete(f'{self.sdb_name}/{path}/{only_names[i]}')
     except:
       pass
