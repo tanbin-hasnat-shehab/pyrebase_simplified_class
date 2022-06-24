@@ -12,12 +12,12 @@ config = {
 
 #from firebase web app in console 1.firebase.google.com 2.create new project
 #x3.project overview>web app>>>node js code dictionary part 
-  "apiKey": "AIzaSyAqT0DlyRK6l2fDOaXqMQfGWw5IpRCIXWs",
-  "authDomain": "pp1123435454.firebaseapp.com",
-  "projectId": "pp1123435454",
-  "storageBucket": "pp1123435454.appspot.com",
-  "messagingSenderId": "254770376486",
-  "appId": "1:254770376486:web:11f38f85410adae73ddbe7",
+  "apiKey": "AIzaSyAfqDzxsHra1e83CZYktq_jzqQ69uf22EY",
+  "authDomain": "project-6472394762396.firebaseapp.com",
+  "projectId": "project-6472394762396",
+  "storageBucket": "project-6472394762396.appspot.com",
+  "messagingSenderId": "449052742658",
+  "appId": "1:449052742658:web:50ed3d9fc9f55f7fe5c31b",
 
 #project console>project settings>service accounts>python>generate new private key which is creds.json
 #project console>realtime database>create database>start in test mode>Rules>read:true,write:true>pulish>data
@@ -66,6 +66,49 @@ class object_database():
       self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).set(data_to_be_input)
     if len(full_path)==10:
       self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).set(data_to_be_input)
+    
+
+    if len(full_path)==11:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).set(data_to_be_input)
+    if len(full_path)==12:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).set(data_to_be_input)
+    if len(full_path)==13:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).set(data_to_be_input)
+    if len(full_path)==14:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).set(data_to_be_input)
+    if len(full_path)==15:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).set(data_to_be_input)
+    if len(full_path)==16:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).set(data_to_be_input)
+    if len(full_path)==17:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).set(data_to_be_input)
+    if len(full_path)==18:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).set(data_to_be_input)
+    if len(full_path)==19:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).set(data_to_be_input)
+    if len(full_path)==20:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).child(full_path[19]).set(data_to_be_input)
+    if len(full_path)==21:
+      #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).child(full_path[19]).child(full_path[20]).set(data_to_be_input)
+    if len(full_path)==22:
+      self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).child(full_path[19]).child(full_path[20]).child(full_path[21]).set(data_to_be_input)
+
+
+
+
+
+
 
     self.all_data=self.database_obj.child(f'{self.db_name}').get().val()
   def show_data(self,*args,**kwargs):
@@ -93,8 +136,57 @@ class object_database():
         data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).get().val()
       if len(full_path)==10:
         data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).get().val()
+      
+
+      if len(full_path)==11:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).get().val()
+      if len(full_path)==12:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).get().val()
+      if len(full_path)==13:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).get().val()
+      if len(full_path)==14:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).get().val()
+      if len(full_path)==15:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).get().val()
+      if len(full_path)==16:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).get().val()
+      if len(full_path)==17:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).get().val()
+      if len(full_path)==18:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).get().val()
+      if len(full_path)==19:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).get().val()
+      if len(full_path)==20:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).child(full_path[19]).get().val()
+      if len(full_path)==21:
+        #self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).child(full_path[9]).set(data_to_be_input)
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).child(full_path[19]).child(full_path[20]).get().val()
+      if len(full_path)==22:
+        data=self.database_obj.child(f'{self.db_name}').child(full_path[0]).child(full_path[1]).child(full_path[2]).child(full_path[3]).child(full_path[4]).child(full_path[5]).child(full_path[6]).child(full_path[7]).child(full_path[8]).child(full_path[9]).child(full_path[10]).child(full_path[11]).child(full_path[12]).child(full_path[13]).child(full_path[14]).child(full_path[15]).child(full_path[16]).child(full_path[17]).child(full_path[18]).child(full_path[19]).child(full_path[20]).child(full_path[21]).get().val()
+
+
+
+
+
+
+
     else:
-      data=self.database_obj.child(f'{self.db_name}').get().val()
+      data=[]
+      dataa=self.database_obj.child(f'{self.db_name}').get().val()
+      data_list=list(dataa)
+      print(data_list)
+      for i in range(len(data_list)):
+        data.append(self.database_obj.child(self.db_name).child(f'{data_list[i]}').get().val())
     return data
   def delete_data(self,*args,**kwargs):
     dta_path=kwargs.get('path',None)
